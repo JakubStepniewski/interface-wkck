@@ -1,0 +1,22 @@
+.Comments{
+    background-color: #E9E0C3;
+    height: 2vw;
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.Comments > p{
+    background-color: #E9E0C3;
+    font-size: 1.6vw;
+}
+
+b{
+    background-color: #E9E0C3;
+}
+.Comment{
+    background-color: #E9E0C3;
+    font-size: 1.6vw;
+    color: black;
+}

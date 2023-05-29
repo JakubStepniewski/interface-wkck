@@ -1,0 +1,63 @@
+.PostComments{
+    width: 70vw;
+    height: 50vw;
+    margin: 14vw;
+    margin-top: 8vw;
+    background-color: #E9E0C3;
+}
+
+.TopPostComment{
+    height: 3.4vw;
+    width: 71.2vw;
+}
+
+.TitlePostComment{
+    background-color: #E9E0C3;
+    width: 85%;
+    float: left;
+    text-align: center;
+    height: 4vw;
+    font-size: 3vw;
+}
+
+.BackPostComments{
+    float: left;
+    background-color: #E9E0C3;
+}
+
+.PostCommentsImg{
+    width: 35vw;
+    float: left;
+    margin-top: 1vw;
+    margin-left: -2vw;
+}
+
+.PostCommentsP{
+    background-color: #E9E0C3;
+    float: left;
+    font-size: 1.4vw;
+    margin: 0.2vw;
+}
+
+.PostCommenstContent{
+    float: left;
+    width: 30vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    background-color: #E9E0C3;
+    height: 36vw;
+}
+
+.PostCommentType{
+    float: left;
+    width: 65vw;
+    height: 6vw;
+    margin: 2vw;
+    margin-top: 0.5vw;
+    border-radius: 2vw;
+    font-size: 2vw;
+}
+
+.PostComments > .MenuBar{
+    margin-left: -14.5vw;
+}

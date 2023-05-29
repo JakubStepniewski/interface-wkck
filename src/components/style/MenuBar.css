@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    background-color: #FEF4E5;
+}
+
+.MenuBar{
+    background-color: rgba(232,224,194,1);
+    float: left;
+    width: 100vw;
+    height: 4vw;
+    top: 0px;
+    position: fixed;
+    border-bottom: solid black 1px;
+    margin-left: -20vw;
+}

@@ -1,0 +1,20 @@
+.MyMessage{
+    width: auto;
+    height: 4vw;
+    float: right;
+    background-color: white;
+    bottom: 11vw;
+    right: 22vw;
+    position: absolute
+}
+
+.MyMessage > p{
+    background-color: #66ACFE;
+    font-size: 2vw;
+    text-align: right;
+    margin: 1vw;
+    width: auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1vw;
+}

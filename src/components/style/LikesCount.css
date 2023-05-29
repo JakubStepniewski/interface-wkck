@@ -1,0 +1,14 @@
+.LikesCount{
+    margin: 0.4vw;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 0;
+    background-color: #E9E0C3;
+}
+
+.LikesCount > p{
+    background-color: #E9E0C3;
+    font-size: 1.3vw;
+}

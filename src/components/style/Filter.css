@@ -1,0 +1,16 @@
+.Filter{
+    background: #FEF4E5;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+    float: left;
+    margin: 0.4vw;
+    width: auto;
+    height: 3.2vw;
+    display: block;
+    color: black;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }

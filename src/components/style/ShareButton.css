@@ -1,0 +1,25 @@
+.ShareButton{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: left;
+    position: relative;
+    cursor: pointer;
+  }
+
+.ShareButtonImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.4vw;
+    top: 0.3vw;
+  }

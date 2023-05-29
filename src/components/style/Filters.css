@@ -1,0 +1,33 @@
+.Nav{
+    width: 100%;
+    float: left;
+    background-color: rgba(232,224,194,1);
+}
+
+.Filters{
+    width: 60vw;
+    height: 40vw;
+    background-color: rgba(232,224,194,1);
+    margin-left: 20vw;
+    margin-top: 10vw;
+    float: left;
+}
+
+.Filters > input{ 
+ font-size: 2vw;
+ background-color: #D9D9D9;
+ width: 20vw;
+ height: 2vw;
+ margin-left: 10vw;
+ margin-top: 4vw;
+ margin-right: 20vw;
+ float: left;
+} 
+
+.SearchButtonFilters{ 
+    font-size: 2vw;
+    float: left;
+    margin-top: 10vw;
+    margin-left: -10vw;
+    color: black;
+   } 

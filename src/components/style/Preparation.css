@@ -1,0 +1,19 @@
+.Preparation{
+    background-color: #E3E7B7;
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 29.75vw;
+}
+
+h2{
+    font-size: 2vw;
+    background-color: #E3E7B7;
+    margin: 1vw;
+}
+
+.Preparation > p{
+    background-color: #E3E7B7;
+    font-size: 1.5vw;
+}
+

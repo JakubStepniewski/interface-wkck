@@ -1,0 +1,41 @@
+.Chatter{
+    width: 100%;
+    background-color: rgba(232,224,194,1);
+    height: 4.5vw;
+    padding: 0.25vw;
+    padding-left: 0.5vw;
+    float: left;
+}
+
+.ChatterAvatar > img{
+    width: 4vw;
+    background-color: rgba(232,224,194,1);
+    height: 4vw;
+    border-radius: 50%;
+    float: left;
+}
+
+.ChatterAvatar{
+    background-color: rgba(232,224,194,1);
+    float: left;
+}
+
+.ChatterName {
+    width: 12vw;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(232,224,194,1);
+    height: 2vw;
+    float: left;
+    margin-left: 1vw;
+    display: table-cell;
+    justify-content: center;
+    margin-top: 1vw;
+}
+
+.ChatterName > p{
+    font-size: 1.5vw;
+    vertical-align: middle;
+    background-attachment: fixed;
+    background-color: rgba(232,224,194,1);
+}

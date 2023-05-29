@@ -1,0 +1,60 @@
+.LoginRightDiv{
+    background-color: white;
+    width: 99.2vw;
+    height: 47vw;
+}
+
+.LoginRightDiv > form > input{
+    background-color: #D9D9D9;
+    height: 2vw;
+    margin-top: 3vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-size: 2vw;
+    border: none;
+}
+
+.LoginRightDiv > form{
+    background-color: white;
+    padding-top: 10vw;
+}
+
+.LoginLink{
+    width: 27.6vw;
+    background-color: #7FB414;
+    height: 3.5vw;
+    font-size: 3vw;
+    color: black;
+    font-style: normal;
+    text-decoration-style: none;
+    padding: 0.2vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-left: 18.8vw;
+    text-align: center;
+    margin-top: 3vw;
+    float: left;
+    text-decoration: none;
+    border: none;
+}
+
+.RegisterLink{
+    text-decoration: none;
+    background-color: #7FB414;
+}
+
+:Link{
+    text-decoration: none;
+    color: black;
+}
+
+input{
+    border: none;
+}
+
+.errors{
+    color:red;
+    text-align: center;
+    background-color: white;
+    padding-right: 2vw;
+}
