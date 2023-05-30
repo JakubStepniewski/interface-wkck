@@ -1,6 +1,6 @@
-import { Link, useFormAction } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './style/Registration.css'
-import React, { useEffect, useState } from "react";
+import { useState } from "react";
 import LogoHome from './LogoHome';
 import { useNavigate } from "react-router-dom";
 import firebaseConfig from "./firebaseConfig";
@@ -16,7 +16,7 @@ const Register = () => {
   const [errorMessageMail, setErrorMail ] = useState("");
   const [errorMessagePass, setErrorPass ] = useState("");
 
-  const { register, handleSubmit, formState: {errors}} = useForm({
+  const { register, handleSubmit, formState: {}} = useForm({
   });
 
   const onSubmit = (data: any) =>{

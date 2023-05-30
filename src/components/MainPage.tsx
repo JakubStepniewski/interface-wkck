@@ -36,8 +36,6 @@ const MainPage = () => {
         getPosts();
     }, []);
 
-    getPosts();
-
   return (
     <div className='MainPage'>
         

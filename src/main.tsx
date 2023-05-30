@@ -1,7 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import MenuBar from './components/MenuBar'
-import Post from './components/Post'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Profile from './components/Profile'
 import Chat from './components/Chat'

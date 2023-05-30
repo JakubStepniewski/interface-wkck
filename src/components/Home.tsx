@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './style/Home.css'
-import React, { useEffect, useState } from "react";
+
 
 const Home = (props: { name: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; }) =>{
 

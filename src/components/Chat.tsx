@@ -1,9 +1,6 @@
-import { Link } from 'react-router-dom'
 import './style/Chat.css'
-import Image from './Image'
 import Chatter from './Chatter'
 import MyMessage from './MyMessage'
-import Message from './Message'
 import YourMessage from './YourMessage'
 import MenuBar from './MenuBar'
 
