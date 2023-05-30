@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import './style/MainPage.css'
 import Post from './Post'
 import MenuBar from './MenuBar'

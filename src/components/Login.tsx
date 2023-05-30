@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './style/Login.css'
-import React, { useEffect, useState } from "react";
+import  { useState } from "react";
 import LogoHome from './LogoHome';
 import { useNavigate } from "react-router-dom";
 import { initializeApp } from 'firebase/app';

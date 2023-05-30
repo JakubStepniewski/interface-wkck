@@ -1,7 +1,5 @@
 import './style/Post.css'
-import Image from './Image'
 import { Link } from 'react-router-dom'
-import MenuBar from './MenuBar'
 import { post } from './MainPage';
 
 interface props{
