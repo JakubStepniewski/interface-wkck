@@ -1,5 +1,4 @@
 import { Link, Route, Routes } from 'react-router-dom'
-import Avatar from './Avatar'
 import './style/Profile.css'
 import Image from './Image'
 import MenuBar from './MenuBar'

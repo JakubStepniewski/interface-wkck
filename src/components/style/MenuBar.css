@@ -13,3 +13,196 @@
     border-bottom: solid black 1px;
     margin-left: -20vw;
 }
+
+.search{
+    background: #FEF4E5;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    font-size: 2.5vw;
+    float: left;
+    display: block;
+    margin: 0.4vw;
+    width: 20vw;
+    height: 3.1vw;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }
+  
+  .LogoSearch{
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-top: 0.4vw;
+    margin-right: -0.4vw;
+    float: left;
+    background: #FEF4E5;
+  }
+
+  .MainButton{
+    background: #FEF4E5;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+    float: left;
+    margin: 0.4vw;
+    width: auto;
+    height: 3.2vw;
+    color: black;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }
+
+  .ForYouButton{
+    background: #FEF4E5;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+    float: left;
+    margin: 0.4vw;
+    width: auto;
+    height: 3.2vw;
+    display: block;
+    color: black;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }
+
+  .Filter{
+    background: #FEF4E5;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+    float: left;
+    margin: 0.4vw;
+    width: auto;
+    height: 3.2vw;
+    display: block;
+    color: black;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }
+
+  .Add{
+    background: #FEF4E5;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    font-size: 2.5vw;
+    text-align: center;
+    float: left;
+    display: block;
+    margin: 0.4vw;
+    width: auto;
+    height: 3.2vw;
+    color: black;
+    padding-left: 0.7vw;
+    padding-right: 0.7vw;
+  }
+
+  .Avatar{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+  }
+
+  .AvatarImg{
+    background: #FEF4E5;
+    width: 4vw;
+    position: absolute;
+    left: -0.5vw;
+    top: -0.5vw;
+    scale: 1.6;
+    background-position: center;
+  }
+
+  .Notification{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+    cursor: pointer;
+  }
+
+  .NotImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.35vw;
+    top: 0.4vw;
+  }
+
+  .Message{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+    position: relative;
+  }
+
+  .MessageImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.35vw;
+    top: 0.4vw;
+  }
+
+  .Help{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .MessageImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.35vw;
+    top: 0.4vw;
+  }

@@ -50,3 +50,207 @@
     float: right;
     background-color: #E9E0C3;
 }
+
+.Avatar{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+  }
+
+  .AvatarImg{
+    background: #FEF4E5;
+    width: 4vw;
+    position: absolute;
+    left: -0.5vw;
+    top: -0.5vw;
+    scale: 1.6;
+    background-position: center;
+  }
+
+  .Preparation{
+    background-color: #E3E7B7;
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 29.75vw;
+}
+
+h2{
+    font-size: 2vw;
+    background-color: #E3E7B7;
+    margin: 1vw;
+}
+
+.Preparation > p{
+    background-color: #E3E7B7;
+    font-size: 1.5vw;
+}
+
+.Ingredients{
+    background-color: #EDF3A7;
+    width: 25%;
+    float: left;
+    text-align: center;
+    height: 29.75vw;
+}
+
+.Ingredients > h2{
+    background-color: #EDF3A7;
+}
+
+.Ingredients > p{
+    background-color: #EDF3A7;
+    font-size: 1.5vw;
+}
+
+.LikeButton{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: left;
+    position: relative;
+    cursor: pointer;
+  }
+
+.LikeButtonImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.35vw;
+    top: 0.4vw;
+  }
+
+  .CommentButton{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: left;
+    position: relative;
+    
+  }
+
+.CommentButtonImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.35vw;
+    top: 0.4vw;
+  }
+
+  .ShareButton{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: left;
+    position: relative;
+    cursor: pointer;
+  }
+
+.ShareButtonImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.4vw;
+    top: 0.3vw;
+  }
+
+  .SaveButton{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+    display: block;
+    cursor: pointer;
+  }
+
+.SaveButtonImg{
+    background: #FEF4E5;
+    width: 2.5vw;
+    height: 2.5vw;
+    display: block;
+    position: absolute;
+    left: 0.4vw;
+    top: 0.3vw;
+  }
+  
+  .LikesCount{
+    margin: 0.4vw;
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 0;
+    background-color: #E9E0C3;
+}
+
+.LikesCount > p{
+    background-color: #E9E0C3;
+    font-size: 1.3vw;
+}
+
+.Comments{
+    background-color: #E9E0C3;
+    height: 2vw;
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+.Comments > p{
+    background-color: #E9E0C3;
+    font-size: 1.6vw;
+}
+
+b{
+    background-color: #E9E0C3;
+}
+.Comment{
+    background-color: #E9E0C3;
+    font-size: 1.6vw;
+    color: black;
+}

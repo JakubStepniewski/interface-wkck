@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom'
 import './style/Login.css'
-import Logo from './Logo'
 import React, { useEffect, useState } from "react";
 import LogoHome from './LogoHome';
 import { useNavigate } from "react-router-dom";
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
-import firebaseConfig from './firebase';
+import firebaseConfig from './firebaseConfig';
 import { useForm } from 'react-hook-form';
 
 export const Login = () => {

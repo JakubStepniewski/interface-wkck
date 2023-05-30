@@ -1,16 +1,12 @@
 import { Link, useFormAction } from 'react-router-dom'
 import './style/Registration.css'
-import Logo from './Logo'
 import React, { useEffect, useState } from "react";
 import LogoHome from './LogoHome';
 import { useNavigate } from "react-router-dom";
-import firebaseConfig from "./firebase";
+import firebaseConfig from "./firebaseConfig";
 import {createUserWithEmailAndPassword, getAuth} from 'firebase/auth'
 import { initializeApp } from 'firebase/app';
 import { useForm } from "react-hook-form"
-import * as yup from 'yup'
-import {yupResolver} from '@hookform/resolvers/yup'
-import Message from './Message';
 
 const Register = () => {
   const navigate = useNavigate();

@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import Avatar from './Avatar'
 import './style/PostComments.css'
 import MenuBar from './MenuBar'
 
@@ -14,7 +13,11 @@ function PostComments() {
             </Link>
             <h1 className='TitlePostComment'>Kotlet schabowy z ziemniakami</h1>
             <div className='AvatarDiv'>
-              <Avatar/>
+              <div>
+                <Link to="/Profile" className='Avatar'>
+                 <img src='https://i.imgur.com/KIB94je.png' className='AvatarImg'></img>
+               </Link>
+              </div>
             </div>
         </div>
         <div className='PostCommentsAll'>

@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 import './style/Home.css'
-import Logo from './Logo'
 import React, { useEffect, useState } from "react";
-import LogoHome from './LogoHome';
 
 const Home = (props: { name: string | number | boolean | React.ReactElement<any, string | React.JSXElementConstructor<any>> | React.ReactFragment | React.ReactPortal | null | undefined; }) =>{
 
@@ -10,7 +8,11 @@ const Home = (props: { name: string | number | boolean | React.ReactElement<any,
   return (
     <div className='Home'>
         <div className='TopHome'>
-          <LogoHome/>
+        <div>
+          <Link to="/Home">
+            <img src="https://i.imgur.com/zjjCtAc.png" className="logo" alt="Vite logo" />
+          </Link>
+        </div>
           <Link to="/Login" className='LoginButton'>
             Zaloguj się
           </Link>

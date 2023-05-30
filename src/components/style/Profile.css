@@ -92,3 +92,28 @@
     padding-right: 5%;
   }
 
+  .Avatar{
+    background: #FEF4E5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    overflow: hidden;
+    border: none;
+    position: relative;
+    width: 3.2vw;
+    height: 3.2vw;
+    border-radius: 50%;
+    margin: 0.4vw;
+    float: right;
+  }
+
+  .AvatarImg{
+    background: #FEF4E5;
+    width: 4vw;
+    position: absolute;
+    left: -0.5vw;
+    top: -0.5vw;
+    scale: 1.6;
+    background-position: center;
+  }
+

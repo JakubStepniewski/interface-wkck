@@ -12,12 +12,13 @@ import PostComments from './components/PostComments'
 import Home from './components/Home'
 import Registration from './components/Registration'
 import Login from './components/Login'
+import MainPage from './components/MainPage'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Post/>}></Route>
+        <Route path='/' element={<MainPage/>}></Route>
         <Route path='/Profile' element={<Profile/>}></Route>
         <Route path='/Profile/Saves' element={<Profile/>}></Route>
         <Route path='/Mess' element={<Chat/>}></Route>
