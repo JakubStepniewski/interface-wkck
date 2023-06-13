@@ -37,6 +37,7 @@
     float: left;
     font-size: 1.4vw;
     margin: 0.2vw;
+    width: 100%;
 }
 
 .PostCommenstContent{
@@ -86,3 +87,16 @@
     scale: 1.6;
     background-position: center;
   }
+
+  .PostCommentForm{
+    float: left;
+    width: 65vw;
+    height: 6vw;
+    font-size: 2vw;
+    background-color: #E9E0C3;
+}
+
+ .xdd{
+    visibility: hidden;
+    color: #E9E0C3;
+}

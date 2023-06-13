@@ -29,14 +29,7 @@
     padding-right: 0.7vw;
   }
   
-  .LogoSearch{
-    width: 3.2vw;
-    height: 3.2vw;
-    margin-top: 0.4vw;
-    margin-right: -0.4vw;
-    float: left;
-    background: #FEF4E5;
-  }
+  
 
   .MainButton{
     background: #FEF4E5;
@@ -205,4 +198,21 @@
     position: absolute;
     left: 0.35vw;
     top: 0.4vw;
+  }
+
+  .searchButton{
+    width: 3.2vw;
+    height: 3.2vw;
+    margin-top: 0.4vw;
+    margin-right: -0.3vw;
+    float: left;
+    background: #FEF4E5;
+    border: none;
+  }
+
+  .LogoSearch{
+    float: left;
+    background: #FEF4E5;
+    width: 3vw;
+    height: 3vw;
   }

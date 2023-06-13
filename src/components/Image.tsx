@@ -1,10 +1,16 @@
+import { post } from './MainPage';
 import './style/Image.css'
 
-function Image() {
+interface props{
+  post: post;
+}
+
+const Image = (props: props) =>{
+  const {post} = props;
 
   return (
     <div className='Image'>
-        <img src='https://i.imgur.com/2hID20a.jpg' className='PostImg'></img>
+        <img src={post.imageUrl} className='PostImg'></img>
     </div>
   )
 }

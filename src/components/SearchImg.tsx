@@ -1,10 +1,16 @@
+import { post } from './MainPage';
 import './style/SearchImg.css'
 
-function SearchImg() {
+interface props{
+  post: post;
+}
+
+const SearchImg = (props: props) =>{
+  const {post} = props;
 
   return (
     <div className='SearchImgDiv'>
-        <img src='https://i.imgur.com/2hID20a.jpg' className='SearchImg'></img>
+        <img src={post.imageUrl} className='SearchImg'></img>
     </div>
   )
 }

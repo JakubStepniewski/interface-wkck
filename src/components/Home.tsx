@@ -20,7 +20,7 @@ const Home = (props: { name: string | number | boolean | React.ReactElement<any,
         <div className='HomeContent'>
           <img src='https://i.imgur.com/g99oIrX.jpg' className='HomeImg'></img>
           <div className='HomeRightDiv'>
-            <p> {props.name} Wejdź do świata<br></br>przepisów</p>
+            <p>Wejdź do świata<br></br>przepisów</p>
             <Link to="/Register" className='HomeLink'>
               Zarejestruj się
             </Link>

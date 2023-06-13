@@ -17,13 +17,18 @@ export const Login = () => {
 
   const { register, handleSubmit} = useForm();
 
+  
+
 
   
   const onSubmit = (data:any) =>{
     signInWithEmailAndPassword(auth, data.email, data.pass)
-    .then((userCredential) => {
+    .then(async (userCredential) => {
             // Signed in
             const user = userCredential.user;
+
+            
+
             navigate("/")
             console.log(user);
         })

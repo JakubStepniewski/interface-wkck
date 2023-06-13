@@ -3,10 +3,11 @@ import './style/Registration.css'
 import { useState } from "react";
 import LogoHome from './LogoHome';
 import { useNavigate } from "react-router-dom";
-import firebaseConfig from "./firebaseConfig";
+import firebaseConfig, { db } from "./firebaseConfig";
 import {createUserWithEmailAndPassword, getAuth} from 'firebase/auth'
 import { initializeApp } from 'firebase/app';
 import { useForm } from "react-hook-form"
+import { addDoc, collection } from 'firebase/firestore';
 
 const Register = () => {
   const navigate = useNavigate();
@@ -16,8 +17,13 @@ const Register = () => {
   const [errorMessageMail, setErrorMail ] = useState("");
   const [errorMessagePass, setErrorPass ] = useState("");
 
+  const mameRef = collection(db,"names");
+  const avatarRef = collection(db,"avatars");
+
   const { register, handleSubmit, formState: {}} = useForm({
   });
+
+
 
   const onSubmit = (data: any) =>{
 
@@ -26,8 +32,20 @@ const Register = () => {
     }else{
 
       createUserWithEmailAndPassword(auth,data.email,data.password)
-    .then((res) => {
+    .then(async (res) => {
       console.log(res.user)
+
+
+      await addDoc(avatarRef, {
+        avatarUrl: "https:/i.imgur.com/P7lMeq7.jpg",
+        userId: res.user.uid
+      })
+
+      await addDoc(mameRef, {
+        name: data.email,
+        userId: res.user.uid
+      })
+
       navigate("/Login");
     })
   .catch(err => {
